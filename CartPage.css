@@ -1,0 +1,29 @@
+.cart-page {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .cart-items {
+    margin-bottom: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .checkout-form input,
+  .checkout-form select,
+  .checkout-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .checkout-form button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+  }
+  

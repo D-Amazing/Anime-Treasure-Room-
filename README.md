@@ -1,20 +1,12 @@
-# Anime-Treasure-Room-
-Anime E-Commerce App 
-Anime Treasure Room
+# React + Vite
 
-*🚀 Project Overview*  
-Anime Treasure Room is an e-commerce app inspired by anime, built using React and Vite. It features a variety of collectible items, including figures, plushies, apparel, and more. Users can easily add products to their cart and proceed to a checkout form to submit their orders.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🎯 Features  
-- Component-based structure utilizing React (including App, ProductList, ProductItem, and CartPage).
-- State management using useState to track products and items in the cart.
-- Routing with React Router for seamless navigation between the Home and Cart pages.
-- Custom styling with CSS to achieve a cute, anime aesthetic.
-- An "Add to Cart" button available on every product card.
-- Checkout form that captures user information and payment methods.
+Currently, two official plugins are available:
 
-⚙️ Tech Stack 
-- React 18  
-- Vite for fast bundling  
-- React Router DOM  
-- CSS Modules / Plain CSS  
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
